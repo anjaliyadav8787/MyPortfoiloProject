@@ -267,6 +267,8 @@ import img2 from '../assets/Screenshot.png'
 import img3 from '../assets/clockImg.png'
 import img4 from '../assets/Untitled.png'
 import img5 from '../assets/Untitlebookhub.png'
+// import img5 from '../assets/Untitlebookhub.png'
+import img6 from  '../assets/Untitled1.png'
 
 
 
@@ -349,7 +351,24 @@ const Portfolio = () => {
           <h3 className='md:text-[10px] sm:text-[14px] xl:text-[15px] xl:w-[380px]  font-semibold'> Vercel Live Demo :- <a href="  https://ecommerce-project-five-gamma.vercel.app/" target="_blank" className="text-blue-700 font-semibold text-[10px]"> https://ecommerce-project-five-gamma.vercel.app/</a></h3>
         </div>
 
+         {/* ************************************converterapp************ */}
+      <div className='shadow-2xl w-[390px] h-[530px] bg-black text-white px-3 py-5'>
+          <img src={img6} alt="" className='sm:w-[300px] sm:h-[250px] m-auto sm:py-5 px-2 pb-3' />
+          <h1 className='mt-4 text-[15px] font-bold'>1 Title:- <span>Text Converter Project</span></h1>
+          <h1 className='mt-2 text-[15px] font-bold'>2 Description:- </h1>
+          <span className='text-[13px] font-semibold'>
+            A fully responsive Text Converter Project By Using HTML, CSS, JS
+          </span>
+          <h1 className='mt-2 text-[15px] font-bold'>4 Tech Stack</h1>
+          <h3 className='text-[13px] font-semibold'>CSS – Styling</h3>
+          <h3 className='md:text-[10px] sm:text-[14px] xl:text-[15px] xl:w-[380px]  font-semibold'> Vercel Live Demo :- <a href="  https://text-converter-project-ashen.vercel.app/" target="_blank" className="text-blue-700 font-semibold text-[10px]">https://text-converter-project-ashen.vercel.app/</a></h3>
+        </div>
+
       </div>
+
+     
+
+   
     </div>
   )
 }
