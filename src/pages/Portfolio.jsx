@@ -357,10 +357,10 @@ const Portfolio = () => {
           <h1 className='mt-4 text-[15px] font-bold'>1 Title:- <span>Text Converter Project</span></h1>
           <h1 className='mt-2 text-[15px] font-bold'>2 Description:- </h1>
           <span className='text-[13px] font-semibold'>
-            A fully responsive Text Converter Project By Using HTML, CSS, JS
+            A fully responsive Text Converter Project By Using HTML, CSS, React
           </span>
           <h1 className='mt-2 text-[15px] font-bold'>4 Tech Stack</h1>
-          <h3 className='text-[13px] font-semibold'>CSS – Styling</h3>
+          <h3 className='text-[13px] font-semibold'> Tailwind css </h3>
           <h3 className='md:text-[10px] sm:text-[14px] xl:text-[15px] xl:w-[380px]  font-semibold'> Vercel Live Demo :- <a href="  https://text-converter-project-ashen.vercel.app/" target="_blank" className="text-blue-700 font-semibold text-[10px]">https://text-converter-project-ashen.vercel.app/</a></h3>
         </div>
 
